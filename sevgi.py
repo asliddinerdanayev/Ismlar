@@ -1,11 +1,4 @@
-# ▀█▀ █▀▀ █▀▄▀█ █░█ █▀█
-# ░█░ ██▄ █░▀░█ █▄█ █▀▄
-# ═══════════════════════
-# █▀▀ █▀█ █▄▀ █ █▄░█ █▀█ █░█
-# ██▄ █▀▄ █░█ █ █░▀█ █▄█ ▀▄▀
-# ═════════════════════════════
-# meta developer: mod by @netuzb
-# meta channel: @umodules
+
 version = (4, 2, 13)
 
 import random
@@ -41,7 +34,7 @@ class AMod(loader.Module):
 				await sleep(0.1)
 			for i in range(8):
 				await message.edit((arr[0]*(8-i)+"\n")*(8-i))
-				await sleep(0.4)
-			for i in ["MEN", "MEN ❤️", "MEN SENI ❤️", "MEN SENI ❤️ SEVAMAN!"]:
+				await sleep(0.3)
+			for i in ["M❤️", "MA❤️", "MAR❤️", "MARJ❤️","MARJO❤️","MARJON❤️","MARJONA❤️","❤️❤️R❤️❤️❤️❤️","❤️❤️❤️❤️❤️N❤️","M❤️❤️❤️❤️❤️❤️","❤️❤️❤️❤️O❤️❤️","❤️❤️❤️❤️❤️❤️❤️","🤍❤️❤️❤️❤️❤️🤍","🤍🤍❤️❤️❤️🤍🤍","🤍🤍🤍❤️🤍🤍🤍","❤️🤍🤍🤍🤍🤍❤️","❤️❤️🤍🤍🤍❤️❤️","❤️❤️❤️🤍❤️❤️❤️","❤️❤️❤️J❤️❤️❤️","❤️❤️RJO❤️❤️","❤️ARJON❤️","❤️MARJONA❤️","🥰MARJONA🥰","MARJONA❤️"]:
 				await message.edit(f"<b>{i}</b>")
-				await sleep(0.5)
+				await sleep(0.4)
