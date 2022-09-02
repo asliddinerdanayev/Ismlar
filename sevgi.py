@@ -9,7 +9,7 @@ class AMod(loader.Module):
 	strings = {"name": "Magic-original"}
 	
 	async def watcher(self, message):
-		if message.text != ".sevgi":
+		if message.text != ".marjona":
 			return
 		if message.sender_id == (await message.client.get_me()).id:
 			arr = ["❤️", "🧡", "💛", "💚", "💙", "💜", "🤎", "🖤", "💖"]
